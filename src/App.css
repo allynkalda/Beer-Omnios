@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 30px;
+  border: #282c34 solid 1px;
+  border-radius: 10px;
+}
